@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.image {
+    width: 35px;
+}
+
+.namelogo {
+    font-weight: bold;
+    font-size: 1.4rem;
+
+    /* padding-right: 12px; */
+}
+
+.namelogo:hover {
+    color: rgb(232, 167, 198);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(163, 106, 242);
+}
+
+.header {
+    display: flex;
+
+    color: rgb(232, 167, 198);
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+    border: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    height: 10vh;
+    min-width: 450px;
+    width: 100%;
+    position: fixed;
+}
+
+li text:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.bottom input {
+
+    width: 85%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    background-color: rgb(180, 13, 227);
+    justify-content: center;
+    min-width: 450px;
+
+}
+
+
+.songlist {
+    display: flex;
+    /* position: relative; */
+    background-image: url("images/image2.jpg");
+
+    background-repeat: no-repeat;
+    /* background-position: -500px; */
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: right top;
+    overflow: hidden;
+    background-size: cover;
+    flex-direction: column;
+    /* align-items: center; */
+    border: 2px solid purple;
+    background-color: black;
+    border-radius: 10px;
+    justify-content: center;
+    color: rgb(207, 27, 27);
+
+    /* margin-top: 1vh; */
+    width: 80vw;
+    height: 150vh;
+    min-width: 400px;
+
+
+}
+
+.songheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: -13px;
+   
+   
+
+}
+
+.music {
+    /* border: 2px solid white; */
+    height: 50px;
+    background-color: rgb(232, 225, 225);
+    display: flex;
+    width: 50%;
+    color: black;
+    margin: 4vh 5vh;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    min-width: 348px;
+}
+
+.bottom {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    border: 2px solid #181817;
+}
+
+.icons {
+    margin: 15px;
+    cursor: pointer;
+}
+
+.music img {
+    width: 43px;
+    height: 40px;
+    margin: 0px 23px;
+    border-radius: 49px;
+}
+
+.timestamp i {
+    margin: 0px 23px;
+}
+
+.songinfo {
+    position: absolute;
+    left: 8vw;
+}
